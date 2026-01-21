@@ -111,6 +111,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden; /* ← BLOCCA l’uscita del logo */
+  margin-bottom: 10px;
 }
 
 
@@ -134,7 +135,12 @@
   
 }
 
-
+.logo-container {
+  display: flex;
+  flex-direction: column; /* logo sopra, slogan sotto */
+  align-items: center;
+  justify-content: center;
+}
 
     /* ===== Contact form ===== */
     form {
@@ -179,10 +185,12 @@
 
   <!-- ===== Header ===== -->
   <header>
-    <div class="logo-circle">
-      <img src="images/logo.png" alt="Company Logo">
+    <div class="logo-container">
+      <div class="logo-circle">
+        <img src="images/logo.png" alt="Company Logo">
+      </div>
+      <h1>Fast Networks, Reliable Performance</h1>
     </div>
-    <h1>Fast Networks, Reliable Performance</h1>
     <nav>
       <a href="#about">About Us</a>
       <a href="#services">Our Services</a>
