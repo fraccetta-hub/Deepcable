@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Company</title>
+  <style>
+    /* ===== Color palette ===== */
+    :root {
+      --primary-color: #0d1f3c; /* blu scuro del logo */
+      --secondary-color: #000000; /* nero logo */
+      --text-color: #ffffff; /* testo chiaro */
+      --accent-color: #1e3a5f; /* sfondo leggermente più chiaro */
+    }
+
+    /* ===== Global styles ===== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: var(--accent-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--text-color);
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ===== Header / Hero ===== */
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    }
+
+    header img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: rgba(13,31,60,0.8);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .card img {
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      font-size: 1rem;
+    }
+
+    /* ===== Contact form ===== */
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 12px;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: var(--secondary-color);
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: var(--primary-color);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <img src="logo.png" alt="Company Logo">
+    <h1>Your Company Slogan Here</h1>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#services">Our Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== About Us ===== -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="about1.jpg" alt="About Image 1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel sem vel justo tempor ultricies.</p>
+      </div>
+      <div class="card">
+        <img src="about2.jpg" alt="About Image 2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel sem vel justo tempor ultricies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Our Services ===== -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="service1.jpg" alt="Service Image 1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel sem vel justo tempor ultricies.</p>
+      </div>
+      <div class="card">
+        <img src="service2.jpg" alt="Service Image 2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel sem vel justo tempor ultricies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="phone" placeholder="Phone Number" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="text-align:center; margin-top:20px;">Email: info@tuosito.com | Phone: +39 123 456 7890</p>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>Empowering Your Business, One Step at a Time</p>
+  </footer>
+
+</body>
+</html>
