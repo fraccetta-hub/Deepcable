@@ -123,35 +123,26 @@
 }
 
     /* ===== Contact form ===== */
-    form {
-      max-width: 600px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
+.contact-whatsapp {
+  text-align: center;
+  margin-top: 20px;
+}
 
-    input, textarea {
-      padding: 10px;
-      border-radius: 5px;
-      border: none;
-      font-size: 1rem;
-    }
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366; /* verde WhatsApp */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
 
-    button {
-      padding: 12px;
-      background-color: var(--primary-color);
-      color: var(--text-color);
-      font-size: 1rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: bold;
-    }
+.whatsapp-button:hover {
+  background-color: #1ebe57;
+}
 
-    button:hover {
-      background-color: var(--secondary-color);
-    }
 
     /* ===== Footer ===== */
     footer {
@@ -232,13 +223,17 @@
   <!-- ===== Contact ===== -->
   <section id="contact">
     <h2>Contact Us</h2>
-    <form>
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="text" name="phone" placeholder="Phone Number" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    
+    <div class="contact-whatsapp">
+  <a 
+    href="https://wa.me/13075004112?text=Hello%2C%20I%20would%20like%20to%20get%20in%20touch%20with%20Deepcable." 
+    target="_blank" 
+    class="whatsapp-button"
+  >
+    Send us a WhatsApp message
+  </a>
+</div>
+
     
     <div class="contact-info">
       <a href="mailto:info@deepcablellc.com">Email: info@deepcablellc.com</a>
