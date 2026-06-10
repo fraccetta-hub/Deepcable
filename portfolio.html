@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Deepcable</title>
+  <meta name="description" content="Deepcable's project portfolio — 10+ years of submarine cable operations worldwide including SEA-ME-WE, Equiano, Metiss, SHARE, and many more major cable systems.">
+  <meta property="og:title" content="Portfolio | Deepcable">
+  <meta property="og:description" content="Major submarine cable projects worldwide — from the Mediterranean to the Indian Ocean and beyond.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <style>
+    .portfolio-gallery .gallery-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    @media (max-width: 900px) {
+      .portfolio-gallery .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 600px) {
+      .portfolio-gallery .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo-container">
+      <img src="images/logobianco.png" alt="Deepcable Logo" class="logo">
+      <h1>Fast Networks, Reliable Performance</h1>
+    </a>
+  </header>
+
+  <nav>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Our Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <section id="portfolio">
+    <h2>Experience &amp; Projects</h2>
+    <p style="text-align: center; margin-bottom: 40px; font-size: 1.1rem; line-height: 1.8;">With hands-on experience across all aspects of submarine cable vessel operations, including:<br><br>Surface Lay &ndash; Plough Operations &ndash; ROV Support &ndash; Shore-End Installations &ndash; Cable Loading &amp; Offloading &ndash; PLGR &amp; RC (Pre-Lay Grapnel Run &amp; Route Clearance) &ndash; PLIB (Post-Lay Inspection &amp; Burial) &ndash; Grapnel Run<br><br>This comprehensive experience enables seamless support for both installation and maintenance projects, ensuring safe, reliable, and efficient operations across all phases.</p>
+
+    <div class="portfolio-gallery">
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="images/portfolio1.jpg" alt="Portfolio image 1"></div>
+        <div class="gallery-item"><img src="images/portfolio2.jpg" alt="Portfolio image 2"></div>
+        <div class="gallery-item"><img src="images/portfolio3.jpg" alt="Portfolio image 3"></div>
+        <div class="gallery-item"><img src="images/portfolio4.jpg" alt="Portfolio image 4"></div>
+        <div class="gallery-item"><img src="images/portfolio5.jpg" alt="Portfolio image 5"></div>
+        <div class="gallery-item"><img src="images/portfolio6.jpg" alt="Portfolio image 6"></div>
+        <div class="gallery-item"><img src="images/portfolio7.jpg" alt="Portfolio image 7"></div>
+        <div class="gallery-item"><img src="images/portfolio8.jpg" alt="Portfolio image 8"></div>
+      </div>
+    </div>
+  </section>
+
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px 20px;">
+    <div class="table-header">
+      <h3 style="margin-top: 40px; margin-bottom: 40px; font-size: 1.5rem;">Discover all Projects</h3>
+      <button class="table-toggle-btn" onclick="toggleTable()">+</button>
+    </div>
+
+    <div id="tableSection" class="table-hidden">
+      <div id="yearFilter" class="year-filter"></div>
+      <table class="projects-table" id="projectsTable">
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Cable Type</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>SMW5 seg. 4.3</td><td>OAL-C4 LOADING</td><td>Jul–Sep 2015</td></tr>
+        <tr><td>Bolano-Paradiso</td><td>URC1- Pirelli MF</td><td>Dec 2015</td></tr>
+        <tr><td>EIG</td><td>OAL-C4</td><td>Feb 2016</td></tr>
+        <tr><td>LEV</td><td>Tyco Millennia</td><td>Feb 2016</td></tr>
+        <tr><td>IMEWE</td><td>OAL-C4</td><td>Mar 2016</td></tr>
+        <tr><td>Italia-Libia</td><td>Pirelli 18.5</td><td>Mar 2016</td></tr>
+        <tr><td>SMW5</td><td>OAL-C4 OAL-C7 LAY</td><td>Apr–May 2016</td></tr>
+        <tr><td>Licata Linosa</td><td>Pirelli M.F./URC1</td><td>Aug 2016</td></tr>
+        <tr><td>Bari Durazzo</td><td>Pirelli MF</td><td>Aug 2016</td></tr>
+        <tr><td>Vulcano Milazzo</td><td>Pirelli MF</td><td>Dec 2016–Jan 2017</td></tr>
+        <tr><td>SMW4</td><td>OAL-C5</td><td>Apr 2017</td></tr>
+        <tr><td>Bari Durazzo</td><td>Pirelli MF</td><td>May 2017</td></tr>
+        <tr><td>Bios</td><td>OAL-C5</td><td>May 2017</td></tr>
+        <tr><td>Janna Link 1</td><td>NSW Minisub</td><td>Aug 2017</td></tr>
+        <tr><td>SMW4</td><td>OAL-C4</td><td>Sep 2017</td></tr>
+        <tr><td>SMW4</td><td>OAL-C4</td><td>Nov 2017</td></tr>
+        <tr><td>Lamezia-Messina</td><td>Pirelli 25mm</td><td>Feb 2018</td></tr>
+        <tr><td>Silphium</td><td>URC-1</td><td>Mar 2018</td></tr>
+        <tr><td>HCMR</td><td>ROC-2</td><td>May 2018</td></tr>
+        <tr><td>Janna Link 1</td><td>NSW Minusub</td><td>Aug 2018</td></tr>
+        <tr><td>SMW4</td><td>OAL-C4</td><td>Sep–Oct 2018</td></tr>
+        <tr><td>Janna Link 1</td><td>NSW Minisub</td><td>Jun 2019</td></tr>
+        <tr><td>Columbus III</td><td>Pirelli 18.5</td><td>Jul 2019</td></tr>
+        <tr><td>ROCKABILL</td><td>Nexans URC-1 5.6</td><td>Jul 2019</td></tr>
+        <tr><td>Ischia Capri</td><td>Pirelli MF</td><td>Sep 2019</td></tr>
+        <tr><td>Capri Massalubrense</td><td>Pirelli S280</td><td>Sep 2019</td></tr>
+        <tr><td>Smw 3 Seg9</td><td>OALC4</td><td>Oct 2019</td></tr>
+        <tr><td>Smw 3 Seg9</td><td>OALC2</td><td>Oct 2019</td></tr>
+        <tr><td>Azores Pico S. Maria</td><td>NSW MinisubCT</td><td>Oct 2019</td></tr>
+        <tr><td>Licata-Linosa-Lampedusa</td><td>Pirelli 18.5</td><td>Nov–Dec 2019</td></tr>
+        <tr><td>Licata-Linosa-Lampedusa</td><td>URC-1</td><td>Nov–Dec 2019</td></tr>
+        <tr><td>Jayabaya</td><td>URC1</td><td>Nov–Dec 2019</td></tr>
+        <tr><td>GTD Crimar</td><td>NSW Minisub</td><td>Feb 2020</td></tr>
+        <tr><td>Metiss</td><td>OAL-C5 OAL-C7</td><td>Apr–Jul 2020</td></tr>
+        <tr><td>Pelagie (Linosa-Lampedusa)</td><td>URC-1 Pirelli MF</td><td>Aug 2020</td></tr>
+        <tr><td>Anacapri - Ischia</td><td>Pirelli MF</td><td>Aug 2020</td></tr>
+        <tr><td>West Africa</td><td>OAL-C4 OAL-C7</td><td>Nov–Dec 2020</td></tr>
+        <tr><td>Janna Link 2</td><td>NSW MinisubCT</td><td>Feb 2021</td></tr>
+        <tr><td>Med Nautilus R05 R06</td><td>OAL-C5 URC2</td><td>Mar 2021</td></tr>
+        <tr><td>MENA</td><td>OAL-C4</td><td>Mar 2021</td></tr>
+        <tr><td>EQUIANO</td><td>OAL-C4 OAL-C7</td><td>May–Jun 2021</td></tr>
+        <tr><td>EQUIANO</td><td>OAL-C4 OAL-C7</td><td>Jul–Aug 2021</td></tr>
+        <tr><td>SHARE</td><td>ROC-2</td><td>Nov–Dec 2021</td></tr>
+        <tr><td>Trapani Kelibia</td><td>Pirelli S560</td><td>Jan 2022</td></tr>
+        <tr><td>Thetis</td><td>URC-1</td><td>Jan–Feb 2022</td></tr>
+        <tr><td>Thetis</td><td>URC-1</td><td>Apr–Jun 2022</td></tr>
+        <tr><td>Mikonos Syros R05</td><td>Siemens Flexible</td><td>May 2022</td></tr>
+        <tr><td>WA Mauritania S6</td><td>OALC-4</td><td>Jul 2022</td></tr>
+        <tr><td>WA Mauritania S6</td><td>OALC-4</td><td>Aug–Sep 2022</td></tr>
+        <tr><td>Medloop</td><td>OALC-4 OALC-7</td><td>Nov–Dec 2022</td></tr>
+        <tr><td>Ischia Anacapri</td><td>Pirelli MuFi</td><td>Jan 2023</td></tr>
+        <tr><td>Thetis A3 R01, Seg.04</td><td>URC 1</td><td>Feb 2023</td></tr>
+        <tr><td>Palmi Mortelle R 02</td><td>URC1-NSW Minisub CT</td><td>Mar 2023</td></tr>
+        <tr><td>Janna Link 2</td><td>NSW Minisub CT</td><td>Apr 2023</td></tr>
+        <tr><td>T3 SCS</td><td>OALC-4 OALC-7</td><td>May–Jun 2023</td></tr>
+        <tr><td>INFRATEL</td><td>NSW Minisub R</td><td>Aug–Oct 2023</td></tr>
+        <tr><td>INFN INGV EMSO SMARTCABLE</td><td>Pirelli 18.5</td><td>Nov–Dec 2023</td></tr>
+        <tr><td>IFRIQYA</td><td>HORC-1</td><td>Jan–Feb 2024</td></tr>
+        <tr><td>BLUERAMAN</td><td>OALC-4 OALC-7</td><td>Mar–Apr 2024</td></tr>
+        <tr><td>INFRATEL</td><td>NSW Minisub R</td><td>May–Jun 2024</td></tr>
+        <tr><td>BLUERAMAN</td><td>OALC-4 OALC-7</td><td>Jun–Jul 2024</td></tr>
+        <tr><td>SMW4 S4.1</td><td>OAL-C4</td><td>Aug–Sep 2024</td></tr>
+        <tr><td>PIM S6R1</td><td>NSW Minisub R</td><td>Sep 2024</td></tr>
+        <tr><td>PIM S13R2</td><td>NSW Minisub R</td><td>Sep–Oct 2024</td></tr>
+        <tr><td>PIM S10R3</td><td>NSW Minisub R</td><td>Oct 2024</td></tr>
+        <tr><td>Unitirreno</td><td>OALC-4</td><td>Dec 2024</td></tr>
+        <tr><td>SMW5 4.1 R2</td><td>OALC-4</td><td>Mar 2025</td></tr>
+        <tr><td>Unitirreno</td><td>OALC-4</td><td>Jul 2025</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="cards" style="margin-top: 40px;">
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">SEA-ME-WE-5</h3>
+        <p class="card-description">The new Southeast Asia-Middle East-Western Europe 5 (SEA-ME-WE 5) submarine cable system is a matchless, PoP to PoP, multi-regional data superhighway. It is a technological breakthrough which marks a global communications milestone. Designed with the latest upgradable 100Gbps technology enabling initial system capacity of 24 Tbps, it will provide the lowest latency, further enhancing the diversity and resilience to the heavily loaded Asia to Europe route.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Jayabaya</h3>
+        <p class="card-description">The Jayabaya Line will connect between Jakarta and Surabaya. This network will consist of three submarine lines; Jakarta to Cirebon, Cirebon to Semarang, and Semarang to Surabaya. With a total of 915 km of undersea fiber optic cable will connect Jakarta &amp; Surabaya (Jakarta-Cirebon-Semarang-Surabaya)</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Rockabill</h3>
+        <p class="card-description">The Rockabill project (also know as Super Highway 1) is a new combination of submarine cable and terrestrial links that connect Dublin to London and Lowestoft, on the eastern coast of the UK. The fibre network is a duct and dark fibre infrastructure system using a ultra-low-loss fibre to reduce cost per bit, while the system route meets the needs of Clients who want to transport multiple terabits of traffic.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Metiss</h3>
+        <p class="card-description">The METISS submarine cable (MEltingpoT Indianoceanic Submarine System), is the latest addition to Emtel's diverse connectivity to the World. Activated in March 2021, METISS is a new-generation 3,200 KM optical fiber cable connecting Mauritius, Reunion Island, Madagascar and South Africa. The cable landing station is hosted in Emtel's Data Centre in Arsenal. With a capacity of multi Terabits per second and advanced technology, the METISS cable will ensure that your growing demand for data are met for the next few decades.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">West Africa</h3>
+        <p class="card-description">The West Africa Cable System (WACS) is a submarine communications cable linking South Africa with the United Kingdom along the west coast of Africa that was constructed by Alcatel-Lucent. The cable consists of four fibre pairs and is 14,530 km in length, linking from Yzerfontein in the Western Cape of South Africa to London in the United Kingdom. It has 14 landing points, 12 along the western coast of Africa (including Cape Verde and Canary Islands) and 2 in Europe (Portugal and England).</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Equiano</h3>
+        <p class="card-description">Equiano is a private transatlantic communications cable that connects western Europe (Portugal) with southern Africa (Melkbosstrand, South Africa). Branching points along the way connect to Togo, Nigeria, the island of St. Helena and Namibia. The cable was announced by Google in June 2019 and was eventually launched in September 2022, having reached its final destination of South Africa.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">SHARE</h3>
+        <p class="card-description">HMN Tech has realized the marine deployment of the Senegal Horn of Africa Regional Express (SHARE) submarine cable system, with landfalls in both Senegal and Cape Verde. Financed by the Senegalese State and operated by the Agence De l'Informatique de l'Etat (ADIE), the 720km system transmits a total design capacity of 16Tbps between Dakar Senegal, and Praia in Cape Verde.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Medloop</h3>
+        <p class="card-description">The Medloop cable system is a submarine cable connecting Genoa, Marseille, Ajaccio and Barcelona. The Medloop cable system is developed by Elettra Tlc S.p.A., a subsidiary of Orange Marine, and supplied by Alcatel Submarine Networks (ASN), ready for service in 2023.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">T3</h3>
+        <p class="card-description">T3 submarine cable system connects South Africa with Mauritius, with branching units to Reunion Island and Madagascar. T3 submarine cable project is developed by Mauritius Telecom, in a partnership with Liquid Telecom. T3 cable system consists of 4 fiber pairs in its trunk, with design capacity of 13.5 Tbps per fiber pair and 54 Tbps for the whole system. Alcatel Submarine Networks (ASN) has been contracted to supply and install the T3 submarine cable system.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Isole Minori</h3>
+        <p class="card-description">Il Piano "Collegamento Isole Minori", è finanziato e promosso dal Dipartimento della trasformazione digitale con un investimento di oltre 45 milioni di euro del PNRR, è attuato da Infratel Italia S.p.A e realizzato dall'operatore aggiudicatario Elettra Tlc. Il Piano ha il fine di fornire connettività adeguata a 21 isole minori delle regioni Lazio, Puglia, Sicilia, Toscana e Sardegna.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">SMART Cable</h3>
+        <p class="card-description">Having real-time information to study the structure of the Earth, natural disasters, oceans and deep sea areas: these and infinite other potentials of SMART Cable, an innovative underwater device installed by a team of researchers and technologists from the National Institute of Geophysics and Volcanology (INGV) in the western sector of the Ionian Sea, off the coast of eastern Sicily.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">IFRIQYA (PEACE MED)</h3>
+        <p class="card-description">The Ifriqiya submarine cable system is the Tunisian branch of the PEACE cable system connecting Asia, Africa and Europe. Spanning 950 km from Bizerte to the main trunk of PEACE MED connecting Marseille, France, and Abu Talaat, Egypt. It has an overall capability of around 3 Tbps and was ready for service on March 3, 2024, owned and operated by Ooredoo Tunisia.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">BlueMed</h3>
+        <p class="card-description">The BlueMed cable will cross the Tyrrhenian Sea connecting Sparkle's Sicily Hub open data center in Palermo with Genoa's new open landing station. With a capacity up to 240 Tbps and about 1,000 km long, BlueMed will provide advanced connectivity between Middle East, Africa, Asia and the European mainland hubs with up to 50% latency reduction than existing terrestrial cables connecting Sicily with Milan.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Unitirreno</h3>
+        <p class="card-description">New Unitirreno cable will be the first 24 fiber pair Open Cable system in the Mediterranean Region delivering cutting-edge submarine technologies to support continuously increasing national and international bandwidth requirements.</p>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Dos Continentes</h3>
+        <p class="card-description">A new double Submarine Cable System, named DOS CONTINENTES, linking Spain's south coast with Ceuta.</p>
+        <button class="expand-button">+</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
